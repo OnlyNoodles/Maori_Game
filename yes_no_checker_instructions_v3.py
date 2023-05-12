@@ -11,7 +11,6 @@ while yes_no != "x":
 
     # If user answers "yes", "y"
     if yes_no == "yes" or yes_no == "y":
-        # Ask for game difficulty
         print("What difficulty do you want to play?: ")
     # If user answers "no", "n"
     elif yes_no == "no" or yes_no == "n":

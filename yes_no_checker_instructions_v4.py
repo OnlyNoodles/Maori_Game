@@ -1,20 +1,32 @@
 """yes_no_checker_instructions_v4.
-Changing the program into a function"""
+Turned yes_no_checker_instructions_v3 into a function.
+Also added a 'break' command to break the 'while' loop
+when the user answers 'yes' or 'no'.
+Also typed out instructions. """
 
 
+# Function for 'yes' or 'no' checker
 def yes_no(question):
+    while True:
 
-    # Program asks user if they've played before
-    yes_no = input("Have you played this game before?: ").lower()
+        # Ask user if they've played before
+        answer = input(question).lower()
 
-    # If user answers "yes", "y"
-    if yes_no == "yes" or yes_no == "y":
-        # Ask for game difficulty
-        print("What difficulty do you want to play?: ")
-    # If user answers "no", "n"
-    elif yes_no == "no" or yes_no == "n":
-        # Program shows instructions
-        print("Instructions")
-    # If user answers something other than yes or no, ask the question again
-    else:
-        print("Please answer 'yes' or 'no'.")
+        # If they say yes, output 'Program Continues'
+        if answer == "yes" or answer == "y":
+            print("What difficulty would you like to play?: ")
+            break
+
+        # If they say no, output 'Display Instructions'
+        elif answer == "no" or answer == "n":
+            print("This Maori quiz will test your knowledge on numbers in Maori."
+                  "\nFirst, choose a difficulty. Difficulties range from:\n")
+            break
+        # Otherwise - show error
+        else:
+            print("Please answer 'yes' or 'no'.")
+    return ()
+
+
+# Main routine
+show_instructions = yes_no("Have you played this game before?: ")
