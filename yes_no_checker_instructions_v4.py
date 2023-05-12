@@ -20,7 +20,8 @@ def yes_no(question):
         # If they say no, output 'Display Instructions'
         elif answer == "no" or answer == "n":
             print("This Maori quiz will test your knowledge on numbers in Maori."
-                  "\nFirst, choose a difficulty. Difficulties range from:\n")
+                  "\nFirst, choose a difficulty. Difficulties range from:"
+                  "\n")
             break
         # Otherwise - show error
         else:
