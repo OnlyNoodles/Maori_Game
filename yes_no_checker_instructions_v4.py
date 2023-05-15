@@ -14,12 +14,13 @@ def yes_no(question):
 
         # If they say yes, output 'Program Continues'
         if answer == "yes" or answer == "y":
-            print("What difficulty would you like to play?: ")
+            print("\nWhat difficulty would you like to play?: ")
             break
 
         # If they say no, show instructions
         elif answer == "no" or answer == "n":
-            print("\nThis Maori quiz will test your knowledge on numbers in Maori."
+            print("\n---Instructions---"
+                  "\n\nThis Maori quiz will test your knowledge on numbers in Maori."
                   "\nFirst, choose a difficulty. Difficulties range from:"
                   "\n\n1. Beginner (Numbers 1 - 10)."
                   "\n2. Intermediate (Numbers 1 - 20)."
@@ -34,4 +35,5 @@ def yes_no(question):
 
 
 # Main routine
-show_instructions = yes_no("Have you played this game before?: ")
+show_instructions = yes_no("Have you played this game before? "
+                           "\n(Please answer 'yes' or 'no'): ")
