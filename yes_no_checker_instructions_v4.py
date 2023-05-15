@@ -17,11 +17,15 @@ def yes_no(question):
             print("What difficulty would you like to play?: ")
             break
 
-        # If they say no, output 'Display Instructions'
+        # If they say no, show instructions
         elif answer == "no" or answer == "n":
-            print("This Maori quiz will test your knowledge on numbers in Maori."
+            print("\nThis Maori quiz will test your knowledge on numbers in Maori."
                   "\nFirst, choose a difficulty. Difficulties range from:"
-                  "\n")
+                  "\n\n1. Beginner (Numbers 1 - 10)."
+                  "\n2. Intermediate (Numbers 1 - 20)."
+                  "\n3. Expert (Numbers 1 - 100)."
+                  "\n\nSecondly, once you enter a number, the program will tell you what difficulty you have chosen."
+                  "\nThen, press 'enter' to start the game!")
             break
         # Otherwise - show error
         else:
