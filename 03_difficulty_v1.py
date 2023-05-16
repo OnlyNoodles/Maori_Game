@@ -10,27 +10,27 @@ def difficulty(question):
         # Ask user if they've played before
         answer = input(question).lower()
 
-        # If they say yes, output 'Program Continues'
+        # If they say easy,
         if answer == "easy":
             break
 
-        # If they say no, show instructions
+        # If they say medium,
         elif answer == "medium":
             break
 
+        # if they say hard,
         elif answer == "hard":
             break
 
         # Otherwise - show error
         else:
             print("Please answer 'yes' or 'no'.")
-    print(f"\nYou answered {answer}.")
+
+    # Print answer to user
+    print(f"\nDifficulty: {answer}."
+          f"\n\nPress <enter> to start!")
 
 
 # Main routine
 difficulty("What difficulty would you like to play? "
            "\n(Please answer 'easy', 'medium', or 'hard'): ")
-
-# Kavin, remember to change ur code to one difficulty.
-# Also, wrong = 0
-# If input is wrong, +1
