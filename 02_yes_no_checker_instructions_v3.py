@@ -1,4 +1,4 @@
-"""yes_no_checker_instructions_v3.
+"""02_yes_no_checker_instructions_v3.
 If user does not put in 'yes' or 'no',
 program will keep asking for 'yes' or 'no'."""
 

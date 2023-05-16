@@ -1,4 +1,4 @@
-"""yes_no_checker_instructions_v1.
+"""02_yes_no_checker_instructions_v1.
 Asks if the user has played this quiz before."""
 
 

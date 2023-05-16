@@ -1,4 +1,4 @@
-"""yes_no_checker_instructions_v2.
+"""02_yes_no_checker_instructions_v2.
 Simplifies the code so that whatever capitals are used in the
 input question, it will be forced into lowercase."""
 
