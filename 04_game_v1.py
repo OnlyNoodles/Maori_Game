@@ -1,5 +1,6 @@
 """04_game_v1.
-Includes lists that select for the game based on the users answer."""
+Includes lists that select for the game based on the users answer.
+Also includes function for the game."""
 
 
 import random
@@ -51,6 +52,27 @@ hard = [["21", "rua tekau ma tahi"], ["22", "rua tekau ma rua"],
         ["29", "rua tekau ma iwa"], ["30", "toru tekau"]]
 
 
-# Main routine
+# Main routine for difficulty selection
 difficulty("What difficulty would you like to play? "
            "\n(Please answer 'easy', 'medium', or 'hard'): ")
+
+
+# Main routine for game
+def game(game_answer):
+    if difficulty is easy:
+        for i in easy:
+            game_answer = input(f"What is {i[0]} in Maori?: ")
+            if game_answer == i[1]:
+                print("Correct")
+
+    if difficulty is medium:
+        for i in easy:
+            game_answer = input(f"What is {i[0]} in Maori?: ")
+            if game_answer == i[1]:
+                print("Correct")
+
+    if difficulty is hard:
+        for i in easy:
+            game_answer = input(f"What is {i[0]} in Maori?: ")
+            if game_answer == i[1]:
+                print("Correct")

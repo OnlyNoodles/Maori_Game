@@ -26,6 +26,7 @@ def yes_no(question):
                   "\n2. Intermediate (Numbers 1 - 20)."
                   "\n3. Expert (Numbers 1 - 100)."
                   "\n\nSecondly, once you enter a number, the program will tell you what difficulty you have chosen."
+                  "\nRemember this, you don't need macrons."
                   "\nThen, press 'enter' to start the game!")
             break
         # Otherwise - show error
