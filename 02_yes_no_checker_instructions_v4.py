@@ -23,8 +23,8 @@ def yes_no(question):
                   "\n\nThis Maori quiz will test your knowledge on numbers in Maori."
                   "\nFirst, choose a difficulty. Difficulties range from:"
                   "\n\n1. Beginner (Numbers 1 - 10)."
-                  "\n2. Intermediate (Numbers 1 - 20)."
-                  "\n3. Expert (Numbers 1 - 100)."
+                  "\n2. Intermediate (Numbers 11 - 20)."
+                  "\n3. Expert (Numbers 21 - 30)."
                   "\n\nSecondly, once you enter a number, the program will tell you what difficulty you have chosen."
                   "\nRemember this, you don't need macrons."
                   "\nThen, press 'enter' to start the game!")

@@ -6,7 +6,7 @@ Also includes function for the game."""
 import random
 
 
-# Function for 'yes' or 'no' checker
+# Function for difficulty
 def difficulty(question):
     while True:
 
