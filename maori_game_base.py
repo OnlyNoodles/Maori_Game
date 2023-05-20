@@ -6,7 +6,7 @@ import random
 
 
 # Welcome Message
-print("---Welcome to the Maori Number Quiz---")
+print("--- Welcome to the Beginner's Maori Number Quiz ---")
 print()
 # Ask for name
 name = input("Please enter your name: ")
@@ -54,8 +54,11 @@ show_instructions = yes_no("Have you played this game before? "
 
 
 # Difficulty lists
-easy = [["1", "tahi"], ["2", "rua"], ["3", "toru"], ["4", "wha"], ["5", "rima"],
-        ["6", "ono"], ["7", "whetu"], ["8", "waru"], ["9", "iwa"], ["10", "tekau"]]
+easy = [["1", "tahi"], ["2", "rua"],
+        ["3", "toru"], ["4", "wha"],
+        ["5", "rima"], ["6", "ono"],
+        ["7", "whetu"], ["8", "waru"],
+        ["9", "iwa"], ["10", "tekau"]]
 medium = [["11", "tekau ma tahi"], ["12", "tekau ma rua"],
           ["13", "tekau ma toru"], ["14", "tekau ma wha"],
           ["15", "tekau ma rima"], ["16", "tekau ma ono"],
