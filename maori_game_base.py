@@ -100,9 +100,22 @@ input("Press <enter> to play!\n")
 # Main routine for game
 random.shuffle(difficulty_choice)
 
+
+# Starts the user from 0 right questions
+correct = 0
+
+
 for i in difficulty_choice:
+    # Ask the question
     game_answer = input(f"What is {i[0]} in Maori?: ").lower()
     if game_answer == i[1]:
+        # Tell the user they answered correctly
         print("\nCorrect\n")
+        # Add a value of 1 to 'correct' everytime the user answers correctly
+        correct += 1
     else:
+        # If user answers incorrectly, don't add any value to 'correct'
+        # Tell the user they answered incorrectly
         print("\nIncorrect\n")
+print(f"--- Results ---"
+      f"\n\nYou answered {correct} out of 10 questions correctly!\n")

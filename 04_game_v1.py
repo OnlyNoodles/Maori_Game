@@ -76,3 +76,4 @@ def game(game_answer):
             game_answer = input(f"What is {i[0]} in Maori?: ")
             if game_answer == i[1]:
                 print("Correct")
+    random.shuffle(game_answer)
