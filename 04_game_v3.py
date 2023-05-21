@@ -10,16 +10,16 @@ import random
 
 # Difficulty lists
 easy = [["1", "tahi"], ["2", "rua"], ["3", "toru"], ["4", "wha"], ["5", "rima"],
-        ["6", "ono"], ["7", "whitu"], ["8", "waru"], ["9", "iwa"], ["10", "tekau"]]
+        ["6", "ono"], ["7", "whetu"], ["8", "waru"], ["9", "iwa"], ["10", "tekau"]]
 medium = [["11", "tekau ma tahi"], ["12", "tekau ma rua"],
           ["13", "tekau ma toru"], ["14", "tekau ma wha"],
           ["15", "tekau ma rima"], ["16", "tekau ma ono"],
-          ["17", "tekau ma whitu"], ["18", "tekau ma waru"],
+          ["17", "tekau ma whetu"], ["18", "tekau ma waru"],
           ["19", "tekau ma iwa"], ["20", "rua tekau"]]
 hard = [["21", "rua tekau ma tahi"], ["22", "rua tekau ma rua"],
         ["23", "rua tekau ma toru"], ["24", "rua tekau ma wha"],
         ["25", "rua tekau ma rima"], ["26", "rua tekau ma ono"],
-        ["27", "rua tekau ma whitu"], ["28", "rua tekau ma waru"],
+        ["27", "rua tekau ma whetu"], ["28", "rua tekau ma waru"],
         ["29", "rua tekau ma iwa"], ["30", "toru tekau"]]
 
 

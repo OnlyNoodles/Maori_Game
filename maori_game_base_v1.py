@@ -1,4 +1,4 @@
-"""maori_game_base.
+"""maori_game_base_v1.
 Components added into here after testing."""
 
 
