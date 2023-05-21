@@ -120,6 +120,6 @@ for i in difficulty_choice:
         # If user answers incorrectly, don't add any value to 'correct'
         # Tell the user they answered incorrectly
         print("\nIncorrect\n")
-# Print results to user
+# Print results with finished 'correct' value to user
 print(f"--- Results ---"
       f"\n\nYou answered {correct} out of 10 questions correctly!\n")
