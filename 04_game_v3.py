@@ -2,7 +2,7 @@
 Links 03_difficulty_v2 to the main game.
 Also adds the lists so that the user's answer will link
 and select their preferred list difficulty.
-This is the version I will use in maori_game_base."""
+This is the version I will use in the base code."""
 
 
 import random

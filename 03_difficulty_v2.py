@@ -1,5 +1,7 @@
 """03_difficulty_v2.
-Changed difficulty component to not be a function, so it can work with and link to the main game."""
+Changed difficulty component to not be a function,
+so it can work with and link to the main game.
+Therefore, this is the version I will use in the base code."""
 
 
 # Main routine for difficulty

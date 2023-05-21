@@ -1,6 +1,7 @@
 """01_welcome_message_and_name.
 This is the first part of the Maori Number Quiz.
-It is what the user will see first as soon as they run the program."""
+It is what the user will see first as soon as they run the program.
+As this is the only version, I will use this in my base code."""
 
 
 # Welcome Message
