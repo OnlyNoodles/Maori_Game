@@ -1,6 +1,8 @@
 """maori_game_base_v3.
 Updated my code so that users can use numbers to choose difficulties.
-I also made sure to keep the spelling fix in 'whitu'.
+I made sure to keep the spelling fix in 'whitu'.
+Also, I deleted the print question statement in the Yes/No checker component
+after yes since the same question is asked afterwards.
 This is the final version of my program."""
 
 
@@ -8,13 +10,13 @@ import random
 
 
 # Welcome Message
-print("--- Welcome to the Beginner's Maori Number Quiz ---")
+print("--- Welcome to the Beginners Maori Number Quiz ---")
 print()
 # Ask for name
 name = input("Please enter your name: ")
 print()
 # Combine welcome message and name
-print(f"Welcome to the Maori Number Quiz, {name}!")
+print(f"Welcome to the Beginners Maori Number Quiz, {name}!")
 
 
 # Function for 'yes' or 'no' checker
@@ -26,7 +28,6 @@ def yes_no(question):
 
         # If they say yes, output 'Program Continues'
         if answer == "yes" or answer == "y":
-            print("\nWhat difficulty would you like to play?: ")
             break
 
         # If they say no, show instructions
@@ -74,8 +75,7 @@ hard = [["21", "rua tekau ma tahi"], ["22", "rua tekau ma rua"],
 
 
 # Main routine for difficulty
-difficulty = input("\nWhat difficulty would you like to play?"
-                   "\n(Please answer 'easy', 'medium', or 'hard'.): ").lower()
+difficulty = input("\nWhat difficulty would you like to play?: ").lower()
 
 # If user answers easy
 if difficulty == "easy" or difficulty == "1":
