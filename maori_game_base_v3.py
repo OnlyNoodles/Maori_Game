@@ -11,12 +11,10 @@ import random
 
 # Welcome Message
 print("--- Welcome to the Beginners Maori Number Quiz ---")
-print()
 # Ask for name
-name = input("Please enter your name: ")
-print()
+name = input("\nPlease enter your name: ")
 # Combine welcome message and name
-print(f"Welcome to the Beginners Maori Number Quiz, {name}!")
+print(f"\nWelcome to the Beginners Maori Number Quiz, {name}!")
 
 
 # Function for 'yes' or 'no' checker
@@ -41,18 +39,18 @@ def yes_no(question):
                   "\n\nSecondly, once you enter a difficulty, "
                   "the program will tell you what difficulty you have chosen."
                   "Answering anything besides the answers in the "
-                  "apostrophes will automatically set the difficulty to 'easy'"
+                  "\napostrophes will automatically set the difficulty to 'easy'"
                   "\nRemember this, you don't need macrons when answering questions."
                   "\nThen, press 'enter' to start the game!")
             break
         # Otherwise - show error
         else:
-            print("Please answer 'yes' or 'no'.")
+            print("\nPlease answer 'yes' or 'no'.")
     return ()
 
 
 # Main routine for Yes/No Checker
-show_instructions = yes_no("Have you played this game before? "
+show_instructions = yes_no("\nHave you played this game before? "
                            "\n(Please answer 'yes' or 'no'): ")
 
 
