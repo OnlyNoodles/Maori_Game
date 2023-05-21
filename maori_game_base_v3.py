@@ -1,5 +1,7 @@
-"""maori_game_base_v2.
-Changed the spelling error in 'whetu' to 'whitu'."""
+"""maori_game_base_v3.
+Updated my code so that users can use numbers to choose difficulties.
+I also made sure to keep the spelling fix in 'whitu'.
+This is the final version of my program."""
 
 
 import random
@@ -76,19 +78,19 @@ difficulty = input("\nWhat difficulty would you like to play?"
                    "\n(Please answer 'easy', 'medium', or 'hard'.): ").lower()
 
 # If user answers easy
-if difficulty == "easy":
+if difficulty == "easy" or difficulty == "1":
     # Select the 'easy' list for the game
     difficulty_choice = easy
     # Print answer to user
     print("\nDifficulty: easy.\n")
 # If user answers medium
-elif difficulty == "medium":
+elif difficulty == "medium" or difficulty == "2":
     # Select the 'medium' list for the game
     difficulty_choice = medium
     # Print answer to user
     print("\nDifficulty: medium.\n")
 # If user answers hard
-elif difficulty == "hard":
+elif difficulty == "hard" or difficulty == "3":
     # Select the 'hard' list for the game
     difficulty_choice = hard
     # Print answer to user
